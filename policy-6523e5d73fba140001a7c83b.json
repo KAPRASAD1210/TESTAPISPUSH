@@ -1,0 +1,54 @@
+{
+  "_id": "6523e5d73fba140001a7c83b",
+  "id": "6523e5d73fba140001a7c83b",
+  "name": "TestPolicy12",
+  "org_id": "6523e53a3fba140001a7c837",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "0e3d14e426714723753bdadeece79a9d": {
+      "api_name": "Testapi2",
+      "api_id": "0e3d14e426714723753bdadeece79a9d",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    },
+    "8408cdd3275d41115108559e15b91760": {
+      "api_name": "Testapi1",
+      "api_id": "8408cdd3275d41115108559e15b91760",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2023-10-09T11:36:55.128086Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1696851419",
+  "meta_data": {}
+}
